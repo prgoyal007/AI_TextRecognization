@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.program_name {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.program_name span {
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  text-transform: uppercase;
+  margin-left: 70px;
+}
+
+.button {
+  background-color: #01796F; /* Hex color code for pine green */
+  color: #fff; /* Text color for contrast */
+  padding: 10px 20px; /* Reduce padding for a smaller button */
+  font-size: 25px; /* Reduce font size for smaller text */
+  font-family: 'Poppins';
+  border: none; /* Remove the button border if desired */
+  border-radius: 5px; /* Add rounded corners if desired */
+  text-align: center; /* Center-align the text within the button */
+  text-decoration: none; /* Remove underlines from anchor elements */
+  width: auto;
+  margin-right: 70px;
+  margin-inline-start: 70px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.access {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* Adjust if needed */
+  text-align: center;
+  
+  padding: 10px;
+}
