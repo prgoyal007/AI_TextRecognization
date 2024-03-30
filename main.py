@@ -9,7 +9,7 @@ app.config["SECRET_KEY"] = "DAVIDISHIM"
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("templates/index.html")
 
 
 if __name__ == "__main__":
